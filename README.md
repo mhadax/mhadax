@@ -1,75 +1,61 @@
-## <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arusha City Parking</title>
+<title>Merry Christmas</title>
 
 <style>
     body {
+        background-color: #f2f2f2;
         font-family: Arial, sans-serif;
-        background-color: #f5f5f5;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         margin: 0;
-        padding: 0;
     }
 
-    header {
-        background-color: #4CAF50;
+    .card {
+        background-color: #1565c0; /* Blue rectangle */
         color: white;
-        padding: 20px;
+        padding: 40px 60px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        max-width: 600px;
     }
 
-    h1 { margin: 0; }
-
-    .container { padding: 20px; }
-
-    .status {
-        font-size: 18px;
-        margin: 15px 0;
-        font-weight: bold;
+    .card h1 {
+        font-size: 50px;
+        margin: 0 0 15px 0;
     }
 
-    input, select, button {
-        padding: 10px;
+    .card p {
+        font-size: 22px;
         margin: 8px 0;
-        font-size: 16px;
-        width: 270px;
-        border-radius: 5px;
-        border: 1px solid #ccc;
     }
 
-    button {
-        background-color: #4CAF50;
-        color: white;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: #45a049;
-    }
-
-    footer {
-        background-color: #333;
-        color: white;
-        padding: 15px;
+    .highlight {
         margin-top: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffeb3b;
     }
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Arusha City Parking</h1>
-    <p>Request parking and pay online</p>
-</header>
+<div class="card">
+    <h1>🎄 Merry Christmas 🎄</h1>
+    <p>Wishing you peace, joy, and happiness</p>
+    <p><strong>— by Mhadax.com</strong></p>
 
-<div class="container">
+    <p class="highlight">WAKUU TUNA NGOJA MIALIKO</p>
+</div>
 
-    <div class="status" id="parkingStatus"></div>
-
-    <input type="text" id="name" placeholder="Your Name"><br>
+</body>
+</html>
 
     <input type="text" id="vehicle" placeholder="Plate Number (T123ADF) or Name (frank)"><br>
 
